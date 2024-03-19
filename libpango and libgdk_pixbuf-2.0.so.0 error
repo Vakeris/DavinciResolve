@@ -1,7 +1,10 @@
 # libpango error
-cd /opt/resolve/
-cd libs
+cd /opt/resolve/libs
 sudo mv libglib-2.0.so libglib-2.0.so-bk
 sudo mv libglib-2.0.so.0 libglib-2.0.so.0-bk
 install opencl-nvidia
+
+cd /opt/resolve/libs
+mkdir disabled && libglib* libgio* libgmodule* disabled
+
 shutter encoder
