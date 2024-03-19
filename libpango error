@@ -1,5 +1,6 @@
 # libpango error
-cd /opt/resolve/bin
+cd /opt/resolve/
+cd libs
 sudo mv libglib-2.0.so libglib-2.0.so-bk
 sudo mv libglib-2.0.so.0 libglib-2.0.so.0-bk
 
