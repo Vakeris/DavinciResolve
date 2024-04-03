@@ -9,7 +9,8 @@ mkdir disabled && libglib* libgio* libgmodule* disabled
 
 
 cd /opt/resolve/libs
-remove libgio-2.0.so though libgmodule-2.0.so.0.6800.4
+remove libgio-2.0.so though libgmodule-2.0.so.0.6800. 
+rm libgio-2.0.so libgio-2.0.so.0 libgio-2.0.so.0.6800.4 libglib-2.0.so libglib-2.0.so.0 libglib-2.0.so.0.6800.4 libglib-2.0.so.0.orig libgmodule-2.0.so libgmodule-2.0.so.0 libgmodule-2.0.so.0.6800.4
 
 
 shutter encoder
