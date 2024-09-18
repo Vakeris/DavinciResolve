@@ -5,3 +5,5 @@ cd /opt/resolve/libs
 sudo mkdir /opt/resolve/libs/_disabled
 sudo mv libgio* libglib* libgmodule* libgobject* _disabled
 sudo pacman -S opencl-nvidia
+# Add this in .local/share/applications DaVinciResolve.desktop
+Exec=env __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json /opt/resolve/bin/resolve %u
